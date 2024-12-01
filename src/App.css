@@ -1,0 +1,27 @@
+#root {
+  max-width: 1280px;
+  margin: 0 auto;
+  padding: 2rem;
+  /* text-align: center; */
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+
+}
+
+.grid {
+  display: grid;
+  grid-template-columns: repeat(10, calc(600px / 40));
+  grid-template-rows: repeat(10, calc(600px / 40));
+}
+
+.box {
+  border: 1px solid black;
+  text-align: center;
+}
+
+/* .input-box-div {
+  position: fixed;
+  bottom: 0;
+
+} */
